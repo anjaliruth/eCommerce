@@ -3,6 +3,7 @@ require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
+const Product = require("./ProductModel.js")
 const PORT = 5001
 
 //Initialise express application
@@ -21,7 +22,7 @@ app.use(express.json())
 //Use cors middleware to handle Cross Origin Resource Sharing
 app.use(cors)
 
-//routes to 
+//routes to backend
 
 
 
